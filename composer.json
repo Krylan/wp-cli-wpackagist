@@ -1,0 +1,24 @@
+{
+    "name": "krylan/wp-cli-wpackagist",
+    "description": "Extension for WP CLI to generate composer.json with list of used plugins and themes from wpackagist.",
+    "type": "wp-cli-package",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Krylan"
+        }
+    ],
+    "keywords": [
+        "wordpress wp wpackagist composer dependencies wp-cli"
+    ],
+    "config": {
+        "preferred-install": "dist"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": ["wp-cli-wpackagist.php"]
+    }
+}
